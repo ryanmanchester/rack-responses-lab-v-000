@@ -3,7 +3,7 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-
+binding.pry
     time = Time.now
 binding.pry
     if time.hour <=> 12 == -1
